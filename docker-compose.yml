@@ -1,0 +1,7 @@
+services:
+  sucesso-cliente:
+    build: .
+    container_name: sucesso-cliente
+    ports:
+      - "8080:80"
+    restart: unless-stopped
