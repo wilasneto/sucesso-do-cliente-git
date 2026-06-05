@@ -3979,30 +3979,31 @@
     .kpis {
       display: grid !important;
       grid-template-columns: repeat(6, minmax(150px, 1fr)) !important;
-      gap: 26px !important;
+      gap: 18px !important;
       align-items: stretch !important;
       margin-bottom: 24px !important;
     }
 
     .kpis .kpi-card {
-      min-height: 242px !important;
-      padding: 28px 15px 24px !important;
+      min-height: 196px !important;
+      padding: 24px 18px 20px !important;
       display: flex !important;
       flex-direction: column !important;
       align-items: center !important;
       justify-content: flex-start !important;
       text-align: center !important;
       gap: 0 !important;
-      border-radius: 18px !important;
+      border-radius: 14px !important;
       overflow: hidden !important;
       background: #fff !important;
-      box-shadow: 0 14px 34px rgba(15, 23, 42, .08) !important;
+      border-color: #dfe7f3 !important;
+      box-shadow: 0 10px 24px rgba(15, 23, 42, .06) !important;
       position: relative !important;
     }
 
     .kpis .kpi-card:hover {
       transform: translateY(-2px);
-      box-shadow: 0 18px 38px rgba(15, 23, 42, .12) !important;
+      box-shadow: 0 14px 28px rgba(15, 23, 42, .09) !important;
     }
 
     .kpis .kpi-card::after {
@@ -4031,37 +4032,37 @@
     }
 
     .kpis .kpi-title {
-      min-height: 44px !important;
-      margin: 0 0 10px !important;
+      min-height: 38px !important;
+      margin: 0 0 12px !important;
       display: flex !important;
       align-items: center !important;
       justify-content: center !important;
-      color: #000 !important;
-      font-size: 18px !important;
-      line-height: 1.12 !important;
-      font-weight: 950 !important;
-      letter-spacing: -.025em !important;
+      color: #253858 !important;
+      font-size: 16px !important;
+      line-height: 1.18 !important;
+      font-weight: 800 !important;
+      letter-spacing: 0 !important;
       text-align: center !important;
       max-width: 170px !important;
     }
 
     .kpis .kpi-number {
-      margin: 0 0 8px !important;
-      color: #000 !important;
-      font-size: clamp(54px, 5.2vw, 86px) !important;
-      line-height: .9 !important;
-      font-weight: 950 !important;
-      letter-spacing: -.075em !important;
+      margin: 0 0 12px !important;
+      color: #111827 !important;
+      font-size: clamp(46px, 4.4vw, 70px) !important;
+      line-height: .95 !important;
+      font-weight: 850 !important;
+      letter-spacing: 0 !important;
       text-align: center !important;
     }
 
     .kpis .kpi-caption {
       width: 100% !important;
       margin: 0 !important;
-      color: #101828 !important;
-      font-size: 17px !important;
+      color: #52637a !important;
+      font-size: 14px !important;
       line-height: 1.35 !important;
-      font-weight: 500 !important;
+      font-weight: 600 !important;
       display: flex !important;
       justify-content: center !important;
       align-items: center !important;
@@ -4078,9 +4079,9 @@
       grid-template-columns: 1fr auto !important;
       align-items: center !important;
       gap: 10px !important;
-      max-width: 142px !important;
+      max-width: 132px !important;
       margin-top: 2px !important;
-      font-size: 17px !important;
+      font-size: 14px !important;
     }
 
     .kpis .kpi-card:first-child .kpi-caption span {
@@ -4089,18 +4090,18 @@
     }
 
     .kpis .kpi-card:first-child .kpi-caption strong {
-      font-size: 12px !important;
-      font-weight: 850 !important;
-      color: #475467 !important;
+      font-size: 11px !important;
+      font-weight: 800 !important;
+      color: #64748b !important;
       align-self: end !important;
-      transform: translateY(16px);
+      transform: translateY(13px);
     }
 
     .kpis .progress {
       width: 96px !important;
-      height: 10px !important;
-      margin-top: 14px !important;
-      background: #e6edf7 !important;
+      height: 7px !important;
+      margin-top: 10px !important;
+      background: #edf2f7 !important;
       border-radius: 999px !important;
     }
 
@@ -4111,25 +4112,27 @@
     .kpis .kpi-action-btn {
       width: auto !important;
       min-width: 172px !important;
-      min-height: 40px !important;
+      min-height: 36px !important;
       margin-top: auto !important;
-      padding: 9px 17px !important;
-      border-radius: 9px !important;
-      font-size: 17px !important;
+      padding: 8px 14px !important;
+      border-radius: 8px !important;
+      font-size: 14px !important;
       line-height: 1.1 !important;
-      font-weight: 950 !important;
+      font-weight: 800 !important;
       white-space: nowrap !important;
       box-shadow: none !important;
     }
 
     .kpis #resolveUnansweredBtn {
-      background: var(--yellow) !important;
-      color: #fff !important;
+      background: #fff7df !important;
+      color: #9a6200 !important;
+      border: 1px solid #ffd36a !important;
     }
 
     .kpis #resolvePendingBtn {
-      background: var(--blue) !important;
-      color: #fff !important;
+      background: #eef5ff !important;
+      color: #1d5fd7 !important;
+      border: 1px solid #b8d4ff !important;
     }
 
     .kpis .exit-card .kpi-exit-actions {
@@ -4147,15 +4150,15 @@
       flex: 1 1 0 !important;
       max-width: 96px !important;
       padding: 9px 12px !important;
-      background: var(--red) !important;
-      color: #fff !important;
-      border: 0 !important;
+      background: #fff1f2 !important;
+      color: #d72f3f !important;
+      border: 1px solid #ffc6cc !important;
     }
 
     .kpis .exit-card .kpi-action-btn.secondary {
-      background: var(--red) !important;
-      color: #fff !important;
-      border: 0 !important;
+      background: #fff1f2 !important;
+      color: #d72f3f !important;
+      border: 1px solid #ffc6cc !important;
     }
 
     @media (max-width: 1320px) {
@@ -4171,11 +4174,11 @@
       }
 
       .kpis .kpi-card {
-        min-height: 225px !important;
+        min-height: 190px !important;
       }
 
       .kpis .kpi-number {
-        font-size: clamp(48px, 14vw, 72px) !important;
+        font-size: clamp(42px, 13vw, 64px) !important;
       }
 
       .kpis .kpi-title {
@@ -4196,14 +4199,14 @@
       width: 100% !important;
       max-width: 100% !important;
       min-width: 0 !important;
-      min-height: 40px !important;
-      padding: 9px 10px !important;
+      min-height: 36px !important;
+      padding: 8px 10px !important;
       white-space: normal !important;
       overflow-wrap: normal !important;
       word-break: normal !important;
       text-align: center !important;
       line-height: 1.15 !important;
-      font-size: clamp(13px, .95vw, 16px) !important;
+      font-size: clamp(12px, .85vw, 14px) !important;
     }
 
     .kpis #resolveUnansweredBtn,
@@ -4230,8 +4233,8 @@
       width: auto !important;
       max-width: none !important;
       min-width: 0 !important;
-      padding: 9px 6px !important;
-      font-size: clamp(12px, .85vw, 15px) !important;
+      padding: 8px 6px !important;
+      font-size: clamp(12px, .8vw, 14px) !important;
       line-height: 1.1 !important;
       white-space: normal !important;
       overflow: hidden !important;
